@@ -6,6 +6,7 @@
     
     # HALS
     <remove-project name="platform_hardware_qcom_audio" path="hardware/qcom/audio" />
+    <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" />
     <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" remote="clar" revision="sdm660-4.19" clone-depth="1" />
     <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media" remote="clar" revision="sdm660-4.19" clone-depth="1" />
     <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio" remote="clar" revision="sdm660-4.19" clone-depth="1" />
