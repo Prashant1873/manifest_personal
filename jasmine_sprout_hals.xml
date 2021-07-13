@@ -4,6 +4,9 @@
          	 fetch="https://github.com/clarencelol" />
 
     <!-- HALs -->
+	 <remove-project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_audio_sdm660" />
+  <remove-project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_display_sdm660" />
+  <remove-project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_media_sdm660" />
 		<!--Clone new HAL-->
 		<project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" remote="clar" revision="sdm660-4.19" />
 		<project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media"  remote="clar" revision="sdm660-4.19" />
