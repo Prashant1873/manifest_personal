@@ -5,6 +5,8 @@
                 fetch="https://github.com/okta-10" />
         <remote  name="sub"
                 fetch="https://github.com/subhajeetmuhuri" />
+         <remote  name="clarence"
+                fetch="https://github.com/clarencelol" />
 
         <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" remote="okta" revision="nad-10" clone-depth="1" />
         <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="okta" revision="nad-10" clone-depth="1" />
