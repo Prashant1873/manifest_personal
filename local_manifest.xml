@@ -12,7 +12,7 @@
 
         <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" remote="okta" revision="nad-10" clone-depth="1" />
         <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="okta" revision="nad-10" clone-depth="1" />
-        <project path="kernel/xiaomi/sdm660" name="mystic_kernel_sdm660-4.4" remote="okta" revision="Mystic-4.4" clone-depth="1" />
+        <project path="kernel/xiaomi/sdm660" name="Persephone-SDM660" remote="prashant" revision="11-EAS" clone-depth="1" />
         <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common-1" remote="prashant" revision="lineage-18.1-4.4" clone-depth="1" />
         <project path="vendor/xiaomi/wayne-common" name="vendor_xiaomi_wayne-common" remote="sub" revision="lineage-18.1-4.4" clone-depth="1" />
         <project path="vendor/xiaomi/MiuiCamera" name="android_vendor_xiaomi_MiuiCamera" remote="clarence" revision="master" clone-depth="1" />
