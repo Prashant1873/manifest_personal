@@ -5,8 +5,13 @@
                 fetch="https://github.com/okta-10" />
         <remote  name="com"
                 fetch="https://github.com/xiaomi-sdm660" />
+        <remote  name="prashant"
+                fetch="https://github.com/Prashant1873" />
+
          
         <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" remote="okta" revision="nad-10" clone-depth="1" />
         <project path="vendor/xiaomi/wayne" name="android_vendor_xiaomi_wayne" remote="com" revision="master" clone-depth="1" />
-        
+        <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common-1" remote="prashant" revision="nad-10" clone-depth="1" />
+        <project path="kernel/xiaomi/sdm660" name="mystic_kernel_sdm660-4.4" remote="okta" revision="Mystic-4.4" clone-depth="1" />
+      
 </manifest>
