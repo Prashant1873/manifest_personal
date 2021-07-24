@@ -17,5 +17,11 @@
         <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="clarence" revision="11-4.19" clone-depth="1" />
         <project path="vendor/xiaomi/wayne-common" name="vendor_xiaomi_wayne-common" remote="clarence" revision="11-4.19" clone-depth="1" />
         <project path="vendor/xiaomi/MiuiCamera" name="android_vendor_xiaomi_MiuiCamera" remote="clarence" revision="master" clone-depth="1" />
+        
+       <remove-project name="android_frameworks_base" />
+       <project path="frameworks/base" name="android_frameworks_base-1" remote="prashant" revision="fix" />
+        
+       
+
 
 </manifest>
